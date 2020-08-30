@@ -1,0 +1,202 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/comm.css"/>
+		<style type="text/css">
+			#citychick{width: 20%;height: 500px;}
+			#_subfield{width: 100%;}
+			#_subfield>p{
+				font-size: 36px; font-style: italic;color: #FF0000;text-shadow:3px 3px 3px yellow;
+				width: 100%;border-bottom: 5px solid springgreen;
+				}
+			 #_carousel{width: 75%;height: 410px;} 
+			 .btn-group-vertical{width: 100%;}
+			 #mini_l{height: 200px;width: 80%;}
+		</style>
+	</head>
+	<body>
+		<header class="my_header">
+			<p>让@anju伴您选房</p>
+			<p>欢迎您,来到安居乐业</p>
+		</header>
+		<div class="container">
+			<div class="row">
+					<div class="col-12 border-0 my_bg mb-3">
+						<h2 class="col-4 text-primary ml-4">安居乐业@anju</h2>
+					</div>
+					<div class="col-10 d-flex flex-wrap justify-content-around">
+						<div class="col-sm-12 col-lg-2 row no-gutters" id="citychick">
+							<div class="btn-group-vertical">
+								<a href="anju_fy.html" class="btn btn-danger">富阳区</a>
+							  <a href="" class="btn btn-warning">下城区</a>
+							  <a href="" class="btn btn-success">西湖区</a>
+							  <a href="" class="btn btn-info">拱墅区</a>
+							  <a href="" class="btn btn-primary">江干区</a>
+							  <a href="" class="btn btn-danger">滨江区</a>
+							  <a href="" class="btn btn-warning">萧山区</a>
+							  <a href="" class="btn btn-success">余杭区</a>
+							  <a href="" class="btn btn-info">临安区</a>
+							  <a href="" class="btn btn-primary">上城区</a>
+							  <a href="#arl1" data-toggle="collapse" class="btn btn-secondary">建德市</a>
+								<p id="arl1" class="collapse">很抱歉,小编暂未收集到信息</p>
+							  <a href="#arl2" data-toggle="collapse" class="btn btn-secondary">桐庐县</a>
+								<p id="arl2" class="collapse">很抱歉,小编暂未收集到信息</p>
+							</div>
+						</div>
+						<div id="_carousel">
+							<div id="demo" class="carousel"data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="img/临安秦禾_青山湖项目.jpg"class="w-100" >
+									</div>
+									<div class="carousel-item">
+										<img src="img/富春重磅.png" class="w-100">
+									</div>
+									<div class="carousel-item">
+										<img src="img/杭州云城.jpg" class="w-100">
+									</div>
+									<div class="carousel-item">
+										<img src="img/杭州新校.jpg" class="w-100">
+									</div>
+								</div>
+								<ul class="carousel-indicators">
+									<li data-target="#demo" data-slide-to="0" class="active"></li>
+									<li data-target="#demo" data-slide-to="1"></li>
+									<li data-target="#demo" data-slide-to="2"></li>
+									<li data-target="#demo" data-slide-to="3"></li>
+								</ul>
+								<a data-slide="next" href="#demo"class="carousel-control-next">
+									<span class="carousel-control-next-icon"></span>
+								</a>
+								<a data-slide="prev" href="#demo"class="carousel-control-prev">
+									<span class="carousel-control-prev-icon"></span>
+								</a>
+							</div>
+						</div>
+						<div id="_subfield">
+							<p>新房中心</p>
+						</div>
+						<div class="floor_one">
+							<div>
+								<a href="#"><img src="img/floor_one/余杭金色池塘家苑.png" ></a>
+							</div>
+							<div class="ml-3">
+								<div class="div_child">
+									<div>
+										<a href="#"><img src="img/floor_one/临安.心悦城.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor_one/余杭.未来天空城.png" ></a>
+									</div>
+								</div>
+								<div class="div_child">
+									<div>
+										<a href="#"><img src="img/floor_one/拱墅.香港置地.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor_one/萧山.融信.png" ></a>
+									</div>
+								</div>
+							  <div class="div_child">
+									<div>
+										<a href="#"><img src="img/floor_one/滨江.玉斌府.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor_one/富阳.碧桂园.png" ></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="col-sm-12 col-lg-2 row">
+						<a href="http://newhouse.hz.house365.com/xiangqitiandi/"><img src="img/right_png/下城香栖.png" class="col-12 mb-3"></a>
+						<img src="img/right_png/临安湖滨天地.png" class="col-12 mb-3">
+						<img src="img/right_png/余杭富力天贸.png" class="col-12 mb-3">
+						<img src="img/right_png/富阳万达.png" class="col-12 mb-3">
+						<img src="img/right_png/拱墅融信.png" class="col-12 mb-3">
+						<img src="img/right_png/江干中旅.png" class="col-12 mb-3">
+						<img src="img/right_png/萧山融信.png" class="col-12 mb-3">
+					</div>
+					<div class="col-12">
+						<div id="_subfield">
+							<p>二手住宅</p>
+						</div>
+						<div class="floor_one">
+							<div>
+								<a href="#"><img src="img/floor-two/上城.景城学府.png" ></a>
+							</div>
+							<div class="ml-3">
+								<div class="div_child">
+									<div>
+										<a href="#"><img src="img/floor-two/上城绿地.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor-two/下城侨福.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor-two/下城水星阁.png" ></a>
+									</div>
+								</div>
+								<div class="div_child">
+									<div>
+										<a href="#"><img src="img/floor-two/临安青山湖5.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor-two/余杭西溪s.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor-two/凤凰府郡.png" ></a>
+									</div>
+								</div>
+							</div>
+					  </div>
+					</div>
+					<div class="col-12">
+						<div id="_subfield">
+							<p>长租短租</p>
+						</div>
+						<div class="floor_one">
+							<div>
+								<a href="#"><img src="img/floor_th/合租.png" ></a>
+							</div>
+							<div class="ml-3">
+								<div class="div_child">
+									<div>
+										<a href="#"><img src="img/floor_th/5000.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor_th/4500.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor_th/2600.png" ></a>
+									</div>
+								</div>
+								<div class="div_child">
+									<div>
+										<a href="#"><img src="img/floor_th/2500.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor_th/2400.png" ></a>
+									</div>
+									<div>
+										<a href="#"><img src="img/floor_th/2000.png" ></a>
+									</div>
+								</div>
+							</div>
+					</div>
+			</div>
+		  </div>
+		</div>
+		<div class="litter-person">
+			<img src="img/litter-person.png" >
+		</div>
+		<footer class="my_footer">以上标价,均为均价,仅供参考</footer>
+	</body>
+</html>

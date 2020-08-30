@@ -1,0 +1,15 @@
+.header_after{background: #092439;}
+.header_img{width: 100%;height:300px;}
+.header_after::before{
+	content:"" ;
+	display: block;
+	width: 100%;height: 70px;
+}
+.research_nav{width: 1190px;height: 70px; display: flex;flex-wrap: nowrap;margin: 0 auto;margin-top: 30px;}
+.research_nav>div{width: 170px;height: 70px; border: 1px solid gray;text-align: center;line-height:60px;}
+.research_nav>div:hover{border:3px solid hotpink;}
+.research_nav>div>a{text-decoration:none ;font-size:20px ;color: coral;}
+.research_nav>div>a:hover{color:hotpink;}
+.my_body1{width: 1000px;display: flex;flex-direction: column;margin: 0 auto;}
+.my_body1>p:first-child{width: 100%;text-align: center;font-size: 30px;margin-top: 30px;margin-bottom: 30px;}
+.my_body1>p:nth-child(2){width: 100%;text-align: center;color: lightgrey;margin-bottom: 30px;}

@@ -1,0 +1,22 @@
+.my_img1{
+    width: 249px;height: 442px;
+    display: block;
+    margin: 0 auto;
+  }
+  .my_tit{
+    color: #000000;
+    font-size: 18px;
+  }
+  .bg_org{background-image: linear-gradient(45deg,#ffc392 ,#fff2e9 100%);}
+  .carousel{margin: 0 auto;}
+  .carousel-item p{font-size: 20px;font-family: Georgia;color: #ffc392;}
+  .my_partition{width: 100%;display: flex;}
+  .my_partition span{font-size: 20px;color: #ffc392;border-bottom: 2px solid orange;margin-right:10px; flex: 0 0 20%;}
+  .my_partition p {border-bottom: 2px solid gray;margin-bottom: 0; flex: 0 0 78%;}
+  .basic_info{width: 100%;display: flex; justify-content: space-between; flex-wrap: wrap;}
+  .basic_info>div{flex: 0 0 33%;background-color: bisque;margin-top: 3px;}
+  .basic_info_d{display: flex;}
+  .basic_info_d>div p:first-child{font-size: 20px;margin-bottom: 0;}
+  .basic_info_d>div p:first-child{font-size: 14px;margin-bottom: 0;}
+  .basic_info_d>div:first-child{margin-right: 3px;border: 1px solid orangered;}
+

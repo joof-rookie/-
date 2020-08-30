@@ -1,0 +1,66 @@
+.fy_title{
+	width: 100%;
+	background-color: #FFFAE8;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.fy_title>p:first-child{
+	font-size: 36px;
+	color: #00FF7F;text-shadow:3px 3px 3px yellow;
+}
+.fy_title>p:nth-child(2){
+	font-size: 24px;
+	color: #007BFF;text-shadow: 2px 2px 2px #00AEEF;
+}
+.fy_title>p:nth-child(3){
+	font-size: 18px;
+	color: darkviolet;text-shadow: 2px 2px 2px fuchsia;
+}
+.fy_house{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+.my_border{
+	border: 1px dotted #E485F8;
+}
+.my_tit{
+	color: #000000;
+	font-size: 18px;
+}
+.my_phone{
+	font-size: 18px;
+	color: #ec6c00;
+}
+.my_price{
+	color: #ec6c00;
+	font-size: 20px;
+	line-height: 20px;
+}
+.font_small{
+	font-size: 12px;
+	font-family: simsun;
+	color: #898989;
+}
+.red_span {
+	font-size: 14px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 1px 7px;
+    color: #8a8a8a;
+    border: 1px solid red;
+}
+
+.my_table{
+	border: 1px dotted #11A6EC;
+	font-size: 12px;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 20px;
+}
+.my_table tr td{vertical-align: middle;}
+.p_bt_border{border-bottom: 2px solid orangered;}
+.bt_border{border-bottom: 1px dotted #11A6EC;}
+#pg2{position: absolute;}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<style type="text/css">
+			*{margin: 0;padding: 0;box-sizing: border-box;}
+			#content{
+				margin: 0 auto;
+				width: 90%;height: 1000px;
+				display: flex;
+				flex-flow: column;
+				justify-content: space-around;
+				align-items: center;
+				background-image: url(img/3254169.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.playful{margin-top: 10%;}
+		:root {
+		  --text: yellow; /* o */
+		  --shadow: #E485F8; /* Pink */
+			--text1:#05f1e6cf;
+			--shadow1:yellow;
+		}
+			.playful span{
+				font-size: 80px;
+			  color: var(--text);
+			  text-shadow:
+			    6px 6px        var(--shadow),
+			    5.75px 5.75px  var(--shadow),
+			    5.5px 5.5px    var(--shadow),
+			    5.25px 5.25px  var(--shadow),
+			    5px 5px        var(--shadow),
+			    4.75px 4.75px  var(--shadow),
+			    4.5px 4.5px    var(--shadow),
+			    4.25px 4.25px  var(--shadow),
+			    4px 4px        var(--shadow),
+			    3.75px 3.75px  var(--shadow),
+			    3.5px 3.5px    var(--shadow),
+			    3.25px 3.25px  var(--shadow),
+			    3px 3px        var(--shadow),
+			    2.75px 2.75px  var(--shadow),
+			    2.5px 2.5px    var(--shadow),
+			    2.25px 2.25px  var(--shadow),
+			    2px 2px        var(--shadow),
+			    1.75px 1.75px  var(--shadow),
+			    1.5px 1.5px    var(--shadow),
+			    1.25px 1.25px  var(--shadow),
+			    1px 1px        var(--shadow),
+			    0.75px 0.75px  var(--shadow),
+			    0.5px 0.5px    var(--shadow),
+			    0.25px 0.25px  var(--shadow);
+					 position: relative;
+			}
+			.playful span:nth-child(2n){
+				animation-delay: 0.3s;
+				color: var(--text1);
+				text-shadow:
+				  6px 6px        var(--shadow1),
+				  5.75px 5.75px  var(--shadow1),
+				  5.5px 5.5px    var(--shadow1),
+				  5.25px 5.25px  var(--shadow1),
+				  5px 5px        var(--shadow1),
+				  4.75px 4.75px  var(--shadow1),
+				  4.5px 4.5px    var(--shadow1),
+				  4.25px 4.25px  var(--shadow1),
+				  4px 4px        var(--shadow1),
+				  3.75px 3.75px  var(--shadow1),
+				  3.5px 3.5px    var(--shadow1),
+				  3.25px 3.25px  var(--shadow1),
+				  3px 3px        var(--shadow1),
+				  2.75px 2.75px  var(--shadow1),
+				  2.5px 2.5px    var(--shadow1),
+				  2.25px 2.25px  var(--shadow1),
+				  2px 2px        var(--shadow1),
+				  1.75px 1.75px  var(--shadow1),
+				  1.5px 1.5px    var(--shadow1),
+				  1.25px 1.25px  var(--shadow1),
+				  1px 1px        var(--shadow1),
+				  0.75px 0.75px  var(--shadow1),
+				  0.5px 0.5px    var(--shadow1),
+				  0.25px 0.25px  var(--shadow1);
+			}
+			#divide{font-size: 24px;font-style: initial;color: deeppink;}
+			#_button {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100px;
+           font-family: 'Raleway', sans-serif;
+           font-weight: bold;
+        }
+				#_button>a {
+				    position: relative;
+				    display: inline-block;
+				    padding: 25px 30px;
+				    margin: 40px 0;
+				    color: #03e9f4;
+						background-color: #FFFF00;
+				    text-decoration: none;
+				    text-transform: uppercase;
+				    transition: 0.5s;
+				    letter-spacing: 4px;
+				    overflow: hidden;
+				    margin-left: 50px;
+				}
+				#_button>a:hover {
+				    background: #03e9f4;
+				    color: #050801;
+				    box-shadow: 0 0 5px #03e9f4,
+				        0 0 25px #03e9f4,
+				        0 0 50px #03e9f4,
+				        0 0 200px #03e9f4;
+				    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+				}
+				#_button>a:nth-child(1) {
+				    margin-left: 0;
+				    filter: hue-rotate(270deg);
+				}
+				#_button>a:nth-child(2) {
+				    filter: hue-rotate(110deg);
+				}
+				#_button>a span {
+				    position: absolute;
+				    display: block;
+				}
+				#_button>a span:nth-child(1) {
+				    top: 0;
+				    left: 0;
+				    width: 100%;
+				    height: 2px;
+				    background: linear-gradient(90deg, transparent, #03e9f4);
+				    animation: animate1 1s linear infinite;
+				}
+				@keyframes animate1 {
+				    0% {
+				        left: -100%;
+				    }
+				    50%,
+				    100% {
+				        left: 100%;
+				    }
+				}
+				#_button>a span:nth-child(2) {
+				    top: -100%;
+				    right: 0;
+				    width: 2px;
+				    height: 100%;
+				    background: linear-gradient(180deg, transparent, #03e9f4);
+				    animation: animate2 1s linear infinite;
+				    animation-delay: 0.25s;
+				}
+				
+				@keyframes animate2 {
+				    0% {
+				        top: -100%;
+				    }
+				    50%,
+				    100% {
+				        top: 100%;
+				    }
+				}
+				#_button>a span:nth-child(3) {
+				    bottom: 0;
+				    right: 0;
+				    width: 100%;
+				    height: 2px;
+				    background: linear-gradient(270deg, transparent, #03e9f4);
+				    animation: animate3 1s linear infinite;
+				    animation-delay: 0.50s;
+				}
+				@keyframes animate3 {
+				    0% {
+				        right: -100%;
+				    }
+				    50%,
+				    100% {
+				        right: 100%;
+				    }
+				}
+				#_button>a span:nth-child(4) {
+				    bottom: -100%;
+				    left: 0;
+				    width: 2px;
+				    height: 100%;
+				    background: linear-gradient(360deg, transparent, #03e9f4);
+				    animation: animate4 1s linear infinite;
+				    animation-delay: 0.75s;
+				}
+				@keyframes animate4 {
+				    0% {
+				        bottom: -100%;
+				    }
+				
+				    50%,
+				    100% {
+				        bottom: 100%;
+				    }
+				}
+				.card>div>p a{font-size: 36px;}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<div class="playful">
+				<span class="animated rotateOut infinite">安</span>
+				<span class="animated rotateOut infinite">居</span>
+				<span class="animated rotateOut infinite">乐</span>
+				<span class="animated rotateOut infinite">业</span>
+			</div>
+			<div id="divide">
+				<p class=" ">安于所居,乐于所 业</p>
+			</div>
+			<div id="_button">
+				 <a class="dwo-buttton" href=" " target="_blank" rel="noopener noreferrer">
+				        <span></span>
+				        <span></span>
+				        <span></span>
+				        <span></span>
+				        新盘
+				    </a>
+				    <a class="dwo-buttton" href=" " target="_blank" rel="noopener noreferrer">
+				        <span></span>
+				        <span></span>
+				        <span></span>
+				        <span></span>
+				        二手
+				    </a>
+				    <a class="dwo-buttton" href=" " target="_blank" rel="noopener noreferrer">
+				        <span></span>
+				        <span></span>
+				        <span></span>
+				        <span></span>
+				        租房
+				    </a>
+			</div>
+			<div >
+				<ul class="nav">
+					<li class="nav-item"><a class="nav-link" href="">资讯频道</a></li>
+					<li class="nav-item"><a class="nav-link" href="">土地频道</a></li>
+					<li class="nav-item"><a class="nav-link" href="">地图找房</a></li>
+					<li class="nav-item"><a class="nav-link" href="">关于我们</a></li>
+					<li class="nav-item"><a class="nav-link" href="">联系我们</a></li>
+				</ul>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<h3>丰富的楼盘信息</h3>
+				</div>
+				<div class="card-body">
+					<p><a href="anju_firstPg.html">点击我,进入主页</a></p>
+				</div>
+				<div class="card-footer">
+					<p>杭州各地区红盘,尽在安居乐业</p>
+				</div>
+			</div>
+			<div>
+				<ul class="nav">
+					<li class="nav-item"><a class="nav-link" href="">上城区</a></li>
+					<li class="nav-item"><a class="nav-link" href="">下城区</a></li>
+					<li class="nav-item"><a class="nav-link" href="">西湖区</a></li>
+					<li class="nav-item"><a class="nav-link" href="">拱墅区</a></li>
+					<li class="nav-item"><a class="nav-link" href="">江干区</a></li>
+					<li class="nav-item"><a class="nav-link" href="">滨江区</a></li>
+					<li class="nav-item"><a class="nav-link" href="">萧山区</a></li>
+					<li class="nav-item"><a class="nav-link" href="">余杭区</a></li>
+					<li class="nav-item"><a class="nav-link" href="">临安区</a></li>
+					<li class="nav-item"><a class="nav-link" href="">富阳区</a></li>
+					<li class="nav-item"><a class="nav-link" href="">建德市</a></li>
+					<li class="nav-item"><a class="nav-link" href="">桐庐县</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

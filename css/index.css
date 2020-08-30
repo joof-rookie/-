@@ -1,0 +1,32 @@
+.carousel-indicators li{
+				width: 12px;height: 12px;
+				border-radius: 50%;
+				background-color: #fff;
+				margin-left: 0.25rem;margin-right: 0.25rem;
+}
+.carousel-indicators .active{
+	background-color: #0aa1ed;
+}
+.carousel-control-next,
+.carousel-control-prev{
+	width: 5%;height: 15%;
+	background-color: #aaa;
+	border-radius: 0.25rem;
+	top:40%;
+}
+.btn-group-vertical{width: 100%;}
+.floor_one{
+	width: 100%;display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.floor_one>div:last-child{
+	width: 100%;display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.div_child{
+	width: 100%;display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+}
